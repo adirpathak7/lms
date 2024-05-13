@@ -1,8 +1,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-    
+
 
 body{
-    background-color: rgb(192 132 252);
+ background-color: rgb(192 132 252);
+}
+
+
+::-webkit-scrollbar{
+ display: none;
 }
